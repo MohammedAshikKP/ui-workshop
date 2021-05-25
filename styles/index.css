@@ -412,7 +412,6 @@ html .container .row .card .card__item .card__body small {
 
 html .container .row .card .card__item .card__body .card__text {
   margin: 0.25rem 0rem 0rem 0rem !important;
-  padding-right: 10px;
   word-wrap: break-word;
   color: #000 !important;
   text-overflow: ellipsis;
@@ -498,7 +497,7 @@ html .container .section .section__left {
 html .container .section .section__left .section__heading {
   margin-top: 0rem;
   padding-top: .75rem;
-  margin-bottom: -.5rem;
+  margin-bottom: 24px;
   padding-bottom: 1.25rem;
   font-style: italic;
   border-bottom: 1px solid #dee2e6;
@@ -518,6 +517,7 @@ html .container .section .section__left .section__blog {
 }
 
 html .container .section .section__left .section__blog .blog-post__title {
+  margin-top: 0;
   margin-bottom: 0rem;
   font-size: 2.5rem;
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
@@ -558,6 +558,16 @@ html .container .section .section__left .section__blog .blog-post__body {
   margin-bottom: 1rem;
 }
 
+html .container .section .section__left .section__blog .blog-post__link {
+  color: #007bff !important;
+  cursor: pointer;
+}
+
+html .container .section .section__left .section__blog .blog-post__link:hover {
+  color: #0056b3 !important;
+  text-decoration: underline;
+}
+
 html .container .section .section__left .section__blog pre {
   display: block;
   color: #212529;
@@ -576,6 +586,12 @@ html .container .section .section__left .section__blog .blog-post__listgroup {
   margin-bottom: 1rem;
 }
 
+html .container .section .section__left .section__blog .blog-post__listgroup--numbered {
+  margin: 1rem 0px;
+  margin-bottom: 1rem;
+  list-style: decimal;
+}
+
 html .container .section .section__left .section__footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -586,8 +602,7 @@ html .container .section .section__left .section__footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 1rem;
-  margin-top: -1rem;
+  margin-bottom: 4rem;
 }
 
 html .container .section .section__left .section__footer .section__button {
@@ -603,21 +618,39 @@ html .container .section .section__left .section__footer .section__button {
   background-color: transparent;
 }
 
-html .container .section .section__left .section__footer .section__button:not(:first-child) {
-  margin-left: .25rem;
-}
-
-html .container .section .section__left .section__footer .blue-btn {
+html .container .section .section__left .section__footer .section__button--blue-btn {
+  border: 1px solid;
+  display: block;
+  padding: .38rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 2rem;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out .1s;
+  transition: all ease-in-out .1s;
+  background-color: transparent;
   color: #007bff;
 }
 
-html .container .section .section__left .section__footer .blue-btn:hover {
+html .container .section .section__left .section__footer .section__button--blue-btn:hover {
   background-color: #007bff;
   color: #fff;
 }
 
-html .container .section .section__left .section__footer .disabled-btn {
+html .container .section .section__left .section__footer .section__button--disabled-btn {
+  border: 1px solid;
+  display: block;
+  padding: .375rem .7rem;
+  margin-left: .3rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 2rem;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out .1s;
+  transition: all ease-in-out .1s;
+  background-color: transparent;
   color: #6c757d;
+  opacity: .65;
   pointer-events: none;
   cursor: not-allowed !important;
 }
@@ -664,6 +697,15 @@ html .container .section .section__right .aside__title {
   height: 28.8px;
 }
 
+html .container .section .section__right .aside__link {
+  color: #007bff !important;
+}
+
+html .container .section .section__right .aside__link:hover {
+  color: #0056b3 !important;
+  text-decoration: underline;
+}
+
 html .container .section .section__right .aside__body {
   margin: 0rem;
   padding: 0rem;
@@ -681,9 +723,7 @@ html .container .section .section__right .aside__section .aside__list-group {
 }
 
 html .footer {
-  padding: 2.5rem 0rem 4.5rem 0rem !important;
-  height: 80px;
-  margin: 2rem 0rem !important;
+  padding: 2.5rem 0rem 0.95rem 0rem !important;
   color: #999;
   text-align: center;
   background-color: #f9f9f9;
