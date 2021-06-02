@@ -512,11 +512,11 @@ html .container .section .section__left .section__heading {
   }
 }
 
-html .container .section .section__left .section__blog {
+html .container .section .section__left .blog-post {
   margin-bottom: 4rem;
 }
 
-html .container .section .section__left .section__blog .blog-post__title {
+html .container .section .section__left .blog-post .blog-post__title {
   margin-top: 0;
   margin-bottom: 0rem;
   font-size: 2.5rem;
@@ -526,13 +526,13 @@ html .container .section .section__left .section__blog .blog-post__title {
   line-height: 1.2;
 }
 
-html .container .section .section__left .section__blog .blog-post__sub-title {
+html .container .section .section__left .blog-post .blog-post__sub-title {
   color: #6c757d;
   margin-top: .25rem;
   margin-bottom: 1.25rem;
 }
 
-html .container .section .section__left .section__blog .blog-post__heading {
+html .container .section .section__left .blog-post .blog-post__heading {
   font-size: 2rem;
   margin-bottom: .5rem;
   margin-top: 0rem;
@@ -543,7 +543,7 @@ html .container .section .section__left .section__blog .blog-post__heading {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
 
-html .container .section .section__left .section__blog .blog-post__sub-heading {
+html .container .section .section__left .blog-post .blog-post__sub-heading {
   font-size: 1.75rem;
   margin-top: 0;
   margin-bottom: .5rem;
@@ -552,23 +552,23 @@ html .container .section .section__left .section__blog .blog-post__sub-heading {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
 
-html .container .section .section__left .section__blog .blog-post__body {
+html .container .section .section__left .blog-post .blog-post__body {
   color: #000;
   margin-top: 0rem;
   margin-bottom: 1rem;
 }
 
-html .container .section .section__left .section__blog .blog-post__link {
+html .container .section .section__left .blog-post .blog-post__link {
   color: #007bff !important;
   cursor: pointer;
 }
 
-html .container .section .section__left .section__blog .blog-post__link:hover {
+html .container .section .section__left .blog-post .blog-post__link:hover {
   color: #0056b3 !important;
   text-decoration: underline;
 }
 
-html .container .section .section__left .section__blog pre {
+html .container .section .section__left .blog-post pre {
   display: block;
   color: #212529;
   margin-bottom: .9rem;
@@ -577,16 +577,16 @@ html .container .section .section__left .section__blog pre {
   font-size: 14px;
 }
 
-html .container .section .section__left .section__blog code {
+html .container .section .section__left .blog-post code {
   font-family: monospace,monospace;
 }
 
-html .container .section .section__left .section__blog .blog-post__listgroup {
+html .container .section .section__left .blog-post .blog-post__listgroup {
   margin: 1rem 0px;
   margin-bottom: 1rem;
 }
 
-html .container .section .section__left .section__blog .blog-post__listgroup--numbered {
+html .container .section .section__left .blog-post .blog-post__listgroup--numbered {
   margin: 1rem 0px;
   margin-bottom: 1rem;
   list-style: decimal;
@@ -655,7 +655,7 @@ html .container .section .section__left .section__footer .section__button--disab
   cursor: not-allowed !important;
 }
 
-html .container .section .section__right {
+html .container .section .aside {
   width: 100%;
   display: block;
   position: relative;
@@ -668,7 +668,7 @@ html .container .section .section__right {
 }
 
 @media (min-width: 768px) {
-  html .container .section .section__right {
+  html .container .section .aside {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 33.333333%;
             flex: 0 0 33.333333%;
@@ -676,7 +676,7 @@ html .container .section .section__right {
   }
 }
 
-html .container .section .section__right .aside__about {
+html .container .section .aside .aside__about {
   padding: 1.1rem 1rem;
   margin-bottom: 1rem;
   background-color: #f8f9fa;
@@ -686,7 +686,7 @@ html .container .section .section__right .aside__about {
   text-align: left;
 }
 
-html .container .section .section__right .aside__title {
+html .container .section .aside .aside__title {
   margin-top: 0rem;
   margin-bottom: .35rem;
   padding: 0rem;
@@ -697,26 +697,26 @@ html .container .section .section__right .aside__title {
   height: 28.8px;
 }
 
-html .container .section .section__right .aside__link {
+html .container .section .aside .aside__link {
   color: #007bff !important;
 }
 
-html .container .section .section__right .aside__link:hover {
+html .container .section .aside .aside__link:hover {
   color: #0056b3 !important;
   text-decoration: underline;
 }
 
-html .container .section .section__right .aside__body {
+html .container .section .aside .aside__body {
   margin: 0rem;
   padding: 0rem;
 }
 
-html .container .section .section__right .aside__section {
+html .container .section .aside .aside__section {
   padding: 1rem;
   margin: 0rem;
 }
 
-html .container .section .section__right .aside__section .aside__list-group {
+html .container .section .aside .aside__section .aside__list-group {
   list-style: none;
   padding: 0px !important;
   margin: 0px !important;
