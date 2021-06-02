@@ -470,7 +470,7 @@ html .container .section {
   }
 }
 
-html .container .section .section__left {
+html .container .section .section-left {
   max-width: 100%;
   position: relative;
   padding-right: 15px;
@@ -482,7 +482,7 @@ html .container .section .section__left {
 }
 
 @media (min-width: 768px) {
-  html .container .section .section__left {
+  html .container .section .section-left {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 66.66666%;
             flex: 0 0 66.66666%;
@@ -494,7 +494,7 @@ html .container .section .section__left {
   }
 }
 
-html .container .section .section__left .section__heading {
+html .container .section .section-left .section-heading {
   margin-top: 0rem;
   padding-top: .75rem;
   margin-bottom: 24px;
@@ -507,16 +507,16 @@ html .container .section .section__left .section__heading {
 }
 
 @media (min-width: 768px) {
-  html .container .section .section__left .section__heading {
+  html .container .section .section-left .section-heading {
     margin-top: 1.5rem;
   }
 }
 
-html .container .section .section__left .blog-post {
+html .container .section .section-left .blog-post {
   margin-bottom: 4rem;
 }
 
-html .container .section .section__left .blog-post .blog-post__title {
+html .container .section .section-left .blog-post .blog-post__title {
   margin-top: 0;
   margin-bottom: 0rem;
   font-size: 2.5rem;
@@ -526,13 +526,13 @@ html .container .section .section__left .blog-post .blog-post__title {
   line-height: 1.2;
 }
 
-html .container .section .section__left .blog-post .blog-post__sub-title {
+html .container .section .section-left .blog-post .blog-post__sub-title {
   color: #6c757d;
   margin-top: .25rem;
   margin-bottom: 1.25rem;
 }
 
-html .container .section .section__left .blog-post .blog-post__heading {
+html .container .section .section-left .blog-post .blog-post__heading {
   font-size: 2rem;
   margin-bottom: .5rem;
   margin-top: 0rem;
@@ -543,7 +543,7 @@ html .container .section .section__left .blog-post .blog-post__heading {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
 
-html .container .section .section__left .blog-post .blog-post__sub-heading {
+html .container .section .section-left .blog-post .blog-post__sub-heading {
   font-size: 1.75rem;
   margin-top: 0;
   margin-bottom: .5rem;
@@ -552,23 +552,23 @@ html .container .section .section__left .blog-post .blog-post__sub-heading {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
 
-html .container .section .section__left .blog-post .blog-post__body {
+html .container .section .section-left .blog-post .blog-post__body {
   color: #000;
   margin-top: 0rem;
   margin-bottom: 1rem;
 }
 
-html .container .section .section__left .blog-post .blog-post__link {
+html .container .section .section-left .blog-post .blog-post__link {
   color: #007bff !important;
   cursor: pointer;
 }
 
-html .container .section .section__left .blog-post .blog-post__link:hover {
+html .container .section .section-left .blog-post .blog-post__link:hover {
   color: #0056b3 !important;
   text-decoration: underline;
 }
 
-html .container .section .section__left .blog-post pre {
+html .container .section .section-left .blog-post pre {
   display: block;
   color: #212529;
   margin-bottom: .9rem;
@@ -577,22 +577,22 @@ html .container .section .section__left .blog-post pre {
   font-size: 14px;
 }
 
-html .container .section .section__left .blog-post code {
+html .container .section .section-left .blog-post code {
   font-family: monospace,monospace;
 }
 
-html .container .section .section__left .blog-post .blog-post__listgroup {
+html .container .section .section-left .blog-post .blog-post__listgroup {
   margin: 1rem 0px;
   margin-bottom: 1rem;
 }
 
-html .container .section .section__left .blog-post .blog-post__listgroup--numbered {
+html .container .section .section-left .blog-post .blog-post__listgroup--numbered {
   margin: 1rem 0px;
   margin-bottom: 1rem;
   list-style: decimal;
 }
 
-html .container .section .section__left .section__footer {
+html .container .section .section-left .blog-post__footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -605,8 +605,7 @@ html .container .section .section__left .section__footer {
   margin-bottom: 4rem;
 }
 
-html .container .section .section__left .section__footer .section__button {
-  margin: 1rem 0rem;
+html .container .section .section-left .blog-post__footer .blog-post__button {
   border: 1px solid;
   padding: .375rem .75rem;
   font-size: 1rem;
@@ -618,37 +617,19 @@ html .container .section .section__left .section__footer .section__button {
   background-color: transparent;
 }
 
-html .container .section .section__left .section__footer .section__button--blue-btn {
-  border: 1px solid;
+html .container .section .section-left .blog-post__footer .blog-post__button--blue-btn {
   display: block;
-  padding: .38rem .75rem;
-  font-size: 1rem;
-  line-height: 1.5;
-  border-radius: 2rem;
-  cursor: pointer;
-  -webkit-transition: all ease-in-out .1s;
-  transition: all ease-in-out .1s;
-  background-color: transparent;
   color: #007bff;
 }
 
-html .container .section .section__left .section__footer .section__button--blue-btn:hover {
+html .container .section .section-left .blog-post__footer .blog-post__button--blue-btn:hover {
   background-color: #007bff;
   color: #fff;
 }
 
-html .container .section .section__left .section__footer .section__button--disabled-btn {
-  border: 1px solid;
+html .container .section .section-left .blog-post__footer .blog-post__button--disabled-btn {
   display: block;
-  padding: .375rem .7rem;
   margin-left: .3rem;
-  font-size: 1rem;
-  line-height: 1.5;
-  border-radius: 2rem;
-  cursor: pointer;
-  -webkit-transition: all ease-in-out .1s;
-  transition: all ease-in-out .1s;
-  background-color: transparent;
   color: #6c757d;
   opacity: .65;
   pointer-events: none;

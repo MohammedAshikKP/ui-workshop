@@ -359,7 +359,7 @@ html{
         @include sm(){
           flex-direction: row;
         }
-        .section__left{
+        .section-left{
           max-width: 100%;
           position: relative;
           padding-right: 15px;
@@ -375,7 +375,7 @@ html{
             width: 100%;
             min-height: 1px;
 
-            .section__heading{
+            .section-heading{
               margin-top: 0rem;
               @include sm(){
                  margin-top:1.5rem;
@@ -460,14 +460,13 @@ html{
                     list-style:decimal;
               }
             }
-            .section__footer{
+            .blog-post__footer{
               display:flex;
               justify-content:flex-start;
               align-items:center;
               margin-bottom:4rem;
           
-              .section__button{
-                margin : 1rem 0rem;
+              .blog-post__button{
                 border:1px solid ;
                 padding: .375rem .75rem;
                 font-size: 1rem;
@@ -477,33 +476,17 @@ html{
                 transition:all ease-in-out .1s;
                 background-color: transparent;
               }
-              .section__button--blue-btn{
-                border:1px solid ;
+              .blog-post__button--blue-btn{       
                 display:block;
-                padding: .38rem .75rem;
-                font-size: 1rem;
-                line-height: 1.5;
-                border-radius:2rem;
-                cursor: pointer;
-                transition:all ease-in-out .1s;
-                background-color: transparent;
                 color: #007bff;
                 &:hover{
                   background-color:#007bff;
                   color: #fff;
                 }
               }
-              .section__button--disabled-btn{
-                border:1px solid ;
+              .blog-post__button--disabled-btn{
                 display:block;
-                padding: .375rem .7rem;
                 margin-left: .3rem;
-                font-size: 1rem;
-                line-height: 1.5;
-                border-radius:2rem;
-                cursor: pointer;
-                transition:all ease-in-out .1s;
-                background-color: transparent;
                  color: #6c757d;
                  opacity: .65;
                 pointer-events: none;
